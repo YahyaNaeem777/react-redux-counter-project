@@ -1,0 +1,44 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    background: linear-gradient(to top , rgba(183, 69, 69, 0.667),rgba(49, 36, 36, 0.52));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .innerDiv{
+    width: 350px;
+    height: 70px;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+    background-color: rgba(47, 104, 107, 0.592);
+    border-radius: 30px 30px;
+}
+
+.container .innerDiv input{
+    width: 170px;
+    height: 35px;
+    text-align: center;
+    font-size: 30px;
+    border: none;
+    border-radius: 30px 30px;
+}
+
+.container .innerDiv a{
+    height: 40px;
+    width: 45px;
+    background-color: rgba(10, 39, 67, 0.574);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 900;
+    color: #fff;
+    border-radius: 50%;
+    /* margin: 8px; */
+}
